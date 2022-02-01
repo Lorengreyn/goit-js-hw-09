@@ -1,4 +1,4 @@
-import SimpleLightbox from "SimpleLightbox";
+import SimpleLightbox from "simpleLightbox";
 import "SimpleLightbox/dist/simple-lightbox.min.css";
 
 // Add imports above this line
