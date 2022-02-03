@@ -45,7 +45,7 @@ img {
   font-style: italic;
 }
 
-.active {
+.disabled {
   text-decoration: line-through;
   background-color: transparent;
   font-size: small;
