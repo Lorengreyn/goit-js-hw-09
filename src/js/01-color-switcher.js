@@ -18,7 +18,9 @@ let timerId = null;
 
 function startHandler() {
   startBtn.setAttribute('disabled', '');
-  stopBtn.removeAttribute('disabled');
+    stopBtn.removeAttribute('disabled');
+    startBtn.classList.add("active");
+    stopBtn.classList.remove("active");
 
   changeColor();
   timerId = setInterval(changeColor, 1000);
@@ -26,7 +28,9 @@ function startHandler() {
 
 function stopHandler() {
   stopBtn.setAttribute('disabled', '');
-  startBtn.removeAttribute('disabled');
+    startBtn.removeAttribute('disabled');
+    stopBtn.classList.add("active");
+    startBtn.classList.remove("active");
 
   clearInterval(timerId);
 }
