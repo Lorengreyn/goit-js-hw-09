@@ -25,18 +25,10 @@ img {
 }
 
 .start {
-  background-color: white;
-  margin-right: 20px;
-  border-radius: 30px;
-  border-color: transparent;
-  width: 100px;
-  height: 50px;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
+  margin-right: 30px;
 }
 
-.stop {
+.switch_btn {
   background-color: lightgrey;
   border-radius: 30px;
   border-color: transparent;
@@ -45,6 +37,7 @@ img {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
+  cursor: pointer;
 }
 
 .disabled {
