@@ -115,4 +115,10 @@ img {
   border: none;
   border-radius: 20px;
   background-color: lightgray;
+  cursor: pointer;
+}
+
+.prom-btn:hover,
+.prom-btn:focus {
+  background-color: aqua;
 }
