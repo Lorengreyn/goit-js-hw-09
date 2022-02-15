@@ -97,3 +97,22 @@ img {
 .value {
   font-size: 32px;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delay,
+.amount,
+.step {
+  margin-right: 10px;
+}
+
+.prom-btn {
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: lightgray;
+}
